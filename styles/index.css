@@ -1,7 +1,10 @@
 #comprar-tickets{
-    color: #3FA7D6
+    color: rgb(19, 211, 105);
 }
 
+#comprar-tickets:hover{
+    color: rgb(156, 233, 191);
+}
 #header img{
     width: 80px;
 }
@@ -27,9 +30,24 @@
     color: #FFFAFF;
 }
 
+.btn-platzi{
+    background:  rgb(19, 211, 105);
+    color: #FFFAFF;
+}
+.btn-platzi:hover {
+    background: rgb(156, 233, 191);
+}
+
 #carousel .overlay .container, 
 #carousel .overlay .container .row{
     height: 100%;
+}
+#place-time{
+    background: rgb(26, 36, 33);
+    color: #FFFAFF;
+}
+#place-time img{
+    width: 100%;
 }
 #footer a{
  color: #FFFAFF;

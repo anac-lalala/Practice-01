@@ -29,9 +29,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Los Oradores</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" id="comprar-tickets" href="#">Comprar tickets</a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Más Información
@@ -39,6 +36,9 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Lugares</a>
                 <a class="dropdown-item" href="#">Precios</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" id="comprar-tickets" href="#">Comprar tickets</a>
             </li>
           </ul>
         </div>
@@ -71,8 +71,8 @@
                     a otros estudiantes y  los conferencistas oradores de 
                     primer nivel que tenemos para ti. Te esperamos. 
                   </p>
-                  <a href="#">Quiero ser Orador</a>
-                  <button type="button">Comprar tickets</button>
+                  <a href="#" class="btn btn-outline-light">Quiero ser Orador</a>
+                  <button type="button" class="btn btn-platzi">Comprar tickets</button>
                 </div>
               </div>
             </div>
@@ -81,6 +81,129 @@
       </div>
     </main>
     <!-- /main -->
+    <!-- speakers -->
+    <section id="speakers" class="mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Conoce a los</small>
+            <h2>Oradores</h2>
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="images/sacha.jpg" alt="Foto de Sacha">
+              <div class="card-body">
+                <h5 class="card-title">Sacha Lifszyc</h5>
+                <div>
+                  <span class="badge badge-warning mb-2">Javascript</span>
+                  <span class="badge badge-info">React</span>
+                </div>
+                <p class="card-text">Magna sit amet purus gravida quis blandit turpis. Ut ornare lectus sit amet est placerat in. Pharetra massa massa ultricies mi quis hendrerit dolor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="images/freddy.jpeg" alt="Foto de Sacha">
+              <div class="card-body">
+                <h5 class="card-title">Freddy Vega</h5>
+                <div>
+                  <span class="badge badge-primary mb-2">Gaming</span>
+                </div>
+                <p class="card-text">Magna sit amet purus gravida quis blandit turpis. Ut ornare lectus sit amet est placerat in. Pharetra massa massa ultricies mi quis hendrerit dolor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="images/leonidas2.jpeg" alt="Foto de Sacha">
+              <div class="card-body">
+                <h5 class="card-title">Leonidas Esteban</h5>
+                <div>
+                  <span class="badge badge-dark mb-2">GitHub</span>
+                </div>
+                <p class="card-text">Magna sit amet purus gravida quis blandit turpis. Ut ornare lectus sit amet est placerat in. Pharetra massa massa ultricies mi quis hendrerit dolor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="images/cvander.jpeg" alt="Foto de Sacha">
+              <div class="card-body">
+                <h5 class="card-title">Cristian Vander H.</h5>
+                <div>
+                  <span class="badge badge-warning mb-2">Javascript</span>
+                </div>
+                <p class="card-text">Magna sit amet purus gravida quis blandit turpis. Ut ornare lectus sit amet est placerat in. Pharetra massa massa ultricies mi quis hendrerit dolor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /speakers --> 
+    <!-- Lugar y Fecha -->
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 pl-0 pr-0">
+            <img src="images/honolulu.jpg" alt="Honolulu">
+          </div>
+          <div class="col-12 col-lg-6 pt-4 pb-4">
+            <h2>Honolulu - Octubre 2020</h2>
+            <p>Honolulu u Honolulú​ es la capital y localidad más grande del estado de Hawái, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).</p>
+            <a href="https://es.wikipedia.org/wiki/Honolulu" class="btn btn-outline-light">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Lugar y Fecha -->
+    <!-- Conviértete en Orador -->
+    <section id="conviertete-orador" class="pt-2 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <small>Conviértete en un</small>
+            <h2>Orador</h2>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col text-center">
+            Anótate como orador para dar una <abbr data-toggle="tooltip" title="Charlas de 5 minutos">charla ignite</abbr>. 
+            Cuéntanos de qué quieres hablar!
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-md-6 form-group">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="col-12 col-md-6 form-group">
+                  <input type="text" class="form-control" placeholder="Apellidos">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <textarea name="text" class="form-group form-control form-control-lg" placeholder="Sobre qué quieres hablar?"></textarea>
+                  <small class="form-text text-muted form-group">Recuerda incluir un título para tu charla</small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <button type="button" class="btn btn-platzi btn-block">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /Conviértete en Orador -->
     <!-- Footer -->
     <footer id="footer" class="pb-4 pt-4 bg-dark">
         <div class="container">
